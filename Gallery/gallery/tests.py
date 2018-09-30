@@ -14,7 +14,7 @@ class EditorTestClass(TestCase):
         self.assertTrue(len(editors) > 0)
 
 
-class ArticleTestClass(TestCase):
+class ImageTestClass(TestCase):
 
     def setUp(self):
         self.james= Editor(first_name = 'James', last_name ='Muriuki', email ='james@moringaschool.com')
@@ -33,8 +33,3 @@ class ArticleTestClass(TestCase):
         tags.objects.all().delete()
         Article.objects.all().delete()
     
-    def test_get_news_by_date(self):
-        test_date = '2017-03-17'
-        date = dt.datetime.strptime(test_date, '%Y-%m-%d').date()
-        news_by_date = Article.days_news(date)
-        self.assertTrue(len(news_by_date) == 0)
