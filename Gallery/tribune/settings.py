@@ -45,6 +45,9 @@ else:
    }
 
 
+MODE=config("MODE", default="dev")
+SECRET_KEY = config('SECRET_KEY')
+
 ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
 
 
