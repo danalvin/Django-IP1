@@ -16,12 +16,12 @@ Author: [Dan Mungai](https://github.com/danalvin)
 
 ## Features
 
-+ [x] List photos of all categories
-+ [ ] show category of an image
-+ [ ] Images have desciption
-+ [ ] Categorize pitches
-+ [ ] view images of different categories
-+ [x] search image according to category
++ [ ] List photos of all categories
++ [x] show category of an image
++ [x] Images have desciption
++ [x] Categorize pitches
++ [x] view images of different categories
++ [ ] search image according to category
 
 
 
