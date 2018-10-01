@@ -1,1 +1,1 @@
-web: gunicorn gallery-dan.wsgi
+web: gunicorn gallery-dan
