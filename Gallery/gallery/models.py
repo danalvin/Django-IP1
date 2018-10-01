@@ -19,6 +19,9 @@ class Location(models.Model):
 
 
 class Editor(models.Model):
+    '''
+    Editor model
+    '''
     first_name = models.CharField(max_length =30)
     last_name = models.CharField(max_length =30)
     email = models.EmailField()
@@ -65,6 +68,9 @@ class category(models.Model):
         self.save()
 
 class Image(models.Model):
+    '''
+    Image model
+    '''
     title = models.CharField(max_length =60)
     description = models.TextField()
     category = models.ManyToManyField(category)
